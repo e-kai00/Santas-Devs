@@ -334,19 +334,60 @@ position: relative;
 }
 /* -------------------------------- END HELP PAGE (FAQ) */
 
+/* -------------------------------- CARD GENERATOR */
+.custom_style_h1
+{
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px #000;
 
-/* body::after {
-  content: "";
-  background: url("/assets/images/about-us/image.png");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.9;
-  inset: 0;
-  position: absolute;
-  z-index: -1; 
-} */
+}
+/* Carousel Styling */
+.carousel-caption {
+background: rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+}
+.carousel
+{
+width: 50vw;
+height: 50vh;
+margin: auto;}
 
+
+.custom_adjust_canvas
+
+{
+  width: 50vw;
+  height: 50vh;
+  margin: auto;
+
+}
+.carousel-item img {
+height: 50vh;
+object-fit: cover;
+}
+
+/* Card Creation Form Styling */
+#cardForm label {
+font-weight: bold;
+}
+
+#cardForm input, #cardForm select {
+width: 30%;
+margin: auto;
+padding: 5px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+/* Button Styling */
+.btn {
+margin: 10px;
+font-weight: bold;
+}
+/* -------------------------------- END CARD GENERATOR */
+
+/* -------------------------------- ABOUT PAGE */
 .about-container {    
   padding: 12rem 5rem;
   display: flex;
@@ -413,4 +454,7 @@ figure figcaption {
     width: 90%;
   }
 }
+/* -------------------------------- END ABOUT PAGE */
+
+
 

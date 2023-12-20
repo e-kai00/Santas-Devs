@@ -13,60 +13,7 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link href="assets/css/styles.css" rel="stylesheet">
-<style>
-  .custom_style_h1
-  {
-    font-family: 'Great Vibes', cursive;
-    font-size: 3rem;
-    text-shadow: 2px 2px 2px #000;
-  
-  }
-/* Carousel Styling */
-.carousel-caption {
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-}
-.carousel
-{
-  width: 50vw;
-  height: 50vh;
-  margin: auto;}
-
-
-  .custom_adjust_canvas
-
-  {
-    width: 50vw;
-    height: 50vh;
-    margin: auto;
-  
-  }
-.carousel-item img {
-  height: 50vh;
-  object-fit: cover;
-}
-
-/* Card Creation Form Styling */
-#cardForm label {
-  font-weight: bold;
-}
-
-#cardForm input, #cardForm select {
-  width: 30%;
-  margin: auto;
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-/* Button Styling */
-.btn {
-  margin: 10px;
-  font-weight: bold;
-}
-</style>
 </head>
-
 
 <body>
   <header>
@@ -82,10 +29,10 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">About Us</a>
+              <a class="nav-link" href="card_gen.html">Card Generator</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="card_gen.html">Card Generator</a>
+              <a class="nav-link" href="aboutus.html">About Us</a>
             </li>
           </ul>
         </div>
@@ -94,8 +41,6 @@
   </header>
 
   <h1 class="text-center mt-3 custom_style_h1">Create a card</h1>
-
-
 
   <!-- Image selection carousel 2 -->
   <div id="carouselExampleIndicators" class="carousel slide">
@@ -162,7 +107,6 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
 
   <!-- card creation canvas -->
   <div class="row text-center mt-3">
@@ -241,7 +185,7 @@
         <br>
 
         <!--Generates shareable link-->
-        <button type="submit" class="btn btn-sm btn-warning text-light text-uppercase">Create link</button>
+        <button type="submit" class="btn btn-sm btn-success text-light text-uppercase">Create link</button>
         <!-- <p><button type="submit">Create link</button></p> -->
       </form>
 
@@ -260,10 +204,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> 
 
   <!-- Music Player Footer -->
-  <footer class="footer bg-dark text-light fixed-bottom">
+  <footer class="footer bg-dark text-light">
     <div class="container">
       <div class="row align-items-center justify-content-center justify-content-md-between">
         <!-- Volume control on the left for medium screens and up -->
@@ -271,9 +215,10 @@
           <button id="volume-mute-toggle" class="btn btn-secondary d-none d-md-inline-block">
             <i class="fas fa-volume-up volume-icon"></i>
           </button>
-          <input type="range" id="volume-control" class="form-range d-none d-md-inline-block" min="0" max="100" value="100">
+          <input type="range" id="volume-control" class="form-range d-none d-md-inline-block" min="0" max="100"
+            value="100">
         </div>
-        
+
         <!-- Player Controls in the center for all screen sizes -->
         <div class="col-12 col-md-4 text-center order-1 order-md-2">
           <button id="prev-song" class="btn btn-secondary">
@@ -286,22 +231,22 @@
             <i class="fas fa-step-forward"></i>
           </button>
         </div>
-        
+
         <!-- Playlist toggle on the right for medium screens and up -->
         <div class="col-12 col-md-4 text-md-start order-2 order-md-3">
           <button id="playlist-toggle" class="btn btn-secondary">
             <i class="fas fa-list"></i>
           </button>
         </div>
-      </div>
-      
-      <div class="row">
-        <div class="col text-center">
-          <div id="current-song" class="current-song">Current Music Playing</div>
-          <input type="range" id="song-progress" class="form-range" min="0" value="0">
+        <!-- </div> -->
+
+        <div class="row">
+          <div class="col text-center">
+            <div id="current-song" class="current-song">Current Music Playing</div>
+            <input type="range" id="song-progress" class="form-range" min="0" value="0">
+          </div>
         </div>
       </div>
-    </div>
   </footer>
 
   <!--------------------Playlist Modal -->
@@ -314,8 +259,9 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/music.js"></script>
   <script src="assets/js/card.js"></script>
+  <script src="assets/js/music.js"></script>
+
 </body>
 
 </html>
