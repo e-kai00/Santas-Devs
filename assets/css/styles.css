@@ -1,8 +1,9 @@
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
   font-weight: bolder;
   background-color: #fff;
-  color: #000;
+  color: #262626;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -14,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Courgette', sans-serif;
   font-weight: bold;
   color: #FFD700;
 }
@@ -22,35 +23,42 @@ h6 {
 /* ______________NAVBAR____________________ */
 .navbar {
   background-color: #333; 
-  border-bottom: 4px solid #D32F2F; 
+  border-bottom: 3px solid #A02C2C; 
 }
 
 .navbar .navbar-brand {
-  color: #fff;
-  font-family: 'Great Vibes', cursive;
-  font-size: 1.5em;
+  color: #FDF4E3;
+  font-family: 'Courgette', sans-serif;
+  font-size: 1.3em;
+  text-shadow: 0px 0px 5px rgba(128, 0, 0, 1);
+}
+
+.navbar .navbar-brand .team-name {
+  font-size: 1.1rem;
+  font-family: 'Great Vibes', sans-serif;
+
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #fff;
+  color: #FDF4E3;
   transition: color 0.5s;
 }
 
 /* Style for active nav link */
 .navbar .navbar-nav .nav-link.active {
-  color: #D32F2F; 
-  border-bottom: 3px solid #D32F2F; 
+  /* color: #D32F2F;  */
+  border-bottom: 3px solid #A02C2C; 
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link:focus {
-  color: #D32F2F; 
+  color: #A02C2C; 
 }
 
 .navbar .navbar-nav .active .nav-link,
 .navbar .navbar-nav .nav-link.active {
-  color: #D32F2F; 
-  border-bottom: 3px solid #D32F2F; 
+  color: #A02C2C; 
+  border-bottom: 3px solid #A02C2C; 
 }
 
 
@@ -58,15 +66,15 @@ h6 {
   border-color: #ff6600;
 } */
 
-.navbar-toggler .navbar-toggler-icon {
+/* .navbar-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;utf8,<svg fill='%23ff6600' ... </svg>");
-}
+} */
 /* ___________________________________________________________ */
 
 /* Festive background colors for Christmas */
 .bg-christmas {
-  background-color: #d32f2f;
-  color: #fff;
+  background-color: #A02C2C;
+  color: #FDF4E3;
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -104,7 +112,7 @@ h6 {
 .footer {
   background-color: #014421;
   padding: 10px;
-  color: #fff;
+  color: #FDF4E3;
 }
 
 /* Playlist modal at the bottom right */
@@ -114,7 +122,7 @@ h6 {
   right: 0px;
   width: 300px;
   background-color: rgba(211, 47, 47, 0.5);
-  color: #fff;
+  color: #FDF4E3;
   padding: 15px;
   display: none;
   z-index: 1050;
@@ -157,11 +165,11 @@ h6 {
 }
 
 .volume-icon {
-  color: #fff;
+  color: #FDF4E3;
 }
 
 #playlist-list li {
-  color: #fff;
+  color: #FDF4E3;
   cursor: pointer;
   padding: 5px 0;  
 }
@@ -169,7 +177,7 @@ h6 {
 #prev-song,
 #play-pause,
 #next-song {
-  background-color: #D32F2F;  
+  background-color: #A02C2C;  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);  
 }
 
@@ -181,18 +189,19 @@ h6 {
 }
 
 .form-range::-webkit-slider-thumb {
-  background-color: #D32F2F; 
+  background-color: #A02C2C; 
 }
 
 .form-range::-moz-range-thumb {
-  background-color: #D32F2F;
+  background-color: #A02C2C;
 } 
 
 .footer .btn-secondary {
-  background-color: #D32F2F; 
+  background-color: #A02C2C; 
   border: none; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
 }
+/* ________________End Music Player Footer____________________ */
 
 .grid-container {
   position: relative;
