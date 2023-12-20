@@ -15,7 +15,6 @@
 
   <style>
     body {
-      min-height: 100vh;
       position: relative;
     }
 
@@ -29,73 +28,6 @@
       inset: 0;
       position: absolute;
       z-index: -1; 
-    }
-
-    .about-container {    
-      padding: 12rem 5rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 1.2rem;
-
-      position: relative;
-    }
-
-    .team-member {
-      flex: 1;
-      padding: 1em .1em;
-    }
-
-    .team-member-img {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      border: 1px solid #A02C2C;
-    }
-
-    figure {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #FDF4E3;
-      border-radius: .5rem;
-    }
-
-    figure i {
-      font-size: 1.8rem;
-      color: #0B3D2E;
-      margin: 0 0.5rem;
-    }
-
-    figure p {
-      font-size: 1.2rem;
-      color: #0B3D2E;
-      margin: 0.5rem 0;
-    }
-
-    figure figcaption {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .about-intro {
-      margin-top: 2em;
-      margin-inline: auto;
-      padding: 1em;
-      color: #FDF4E3;
-      text-shadow: 0px 0px 5px #b1d61d;
-      width: 70%;
-      background-color: rgba(11, 61, 46, .7);
-      border-radius: .5rem;
-    }
-
-    @media (max-width: 600px) {
-      .about-intro {
-        width: 90%;
-      }
     }
   </style>
 </head>
@@ -124,8 +56,7 @@
         </div>
       </div>
     </nav>
-  </header>
-  
+  </header>  
 
   <div class="text-center text-white about-intro">
     <h2>Santa's Devs team</h2>
@@ -174,62 +105,10 @@
       </figcaption>
     </figure>
 
-  </div>
-
-  <!-- Music Player Footer -->
-  <footer class="footer bg-dark text-light fixed-bottom">
-    <div class="container">
-      <div class="row align-items-center justify-content-center justify-content-md-between">
-        <!-- Volume control on the left for medium screens and up -->
-        <div class="col-12 col-md-4 text-md-end order-3 order-md-1">
-          <button id="volume-mute-toggle" class="btn btn-secondary d-none d-md-inline-block">
-            <i class="fas fa-volume-up volume-icon"></i>
-          </button>
-          <input type="range" id="volume-control" class="form-range d-none d-md-inline-block" min="0" max="100" value="100">
-        </div>
-        
-        <!-- Player Controls in the center for all screen sizes -->
-        <div class="col-12 col-md-4 text-center order-1 order-md-2">
-          <button id="prev-song" class="btn btn-secondary">
-            <i class="fas fa-step-backward"></i>
-          </button>
-          <button id="play-pause" class="btn btn-secondary rounded-circle">
-            <i class="fas fa-play"></i>
-          </button>
-          <button id="next-song" class="btn btn-secondary">
-            <i class="fas fa-step-forward"></i>
-          </button>
-        </div>
-        
-        <!-- Playlist toggle on the right for medium screens and up -->
-        <div class="col-12 col-md-4 text-md-start order-2 order-md-3">
-          <button id="playlist-toggle" class="btn btn-secondary">
-            <i class="fas fa-list"></i>
-          </button>
-        </div>
-      </div>
-      
-      <div class="row">
-        <div class="col text-center">
-          <div id="current-song" class="current-song">Current Music Playing</div>
-          <input type="range" id="song-progress" class="form-range" min="0" value="0">
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!--------------------Playlist Modal -->
-  <div id="playlist-modal" class="playlist-modal" style="display: none;">
-    <div class="playlist-content">
-      <span class="close-modal">&times;</span>
-      <h2>Playlist</h2>
-      <ul id="playlist-list"></ul>
-    </div>
-  </div>
+  </div> 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/scripts.js"></script>
-  <script src="assets/js/music.js"></script>
 </body>
 
 </html>
