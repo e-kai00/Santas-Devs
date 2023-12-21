@@ -1,15 +1,18 @@
-# Project Title
+# Expressive E-Cards
 
-Brief description of your project, what it does, and what unique problem it solves.
+Expressive E-Cards is a harmonious fusion of technology and heartfelt sentiments that emerged from a spirited hackathon project! Immerse yourself in the festive spirit with our delightful creation, offering users the joy of crafting personalized digital greeting cards that transcend the ordinary.
+
+View the live project [here](https://e-kai00.github.io/Santas-Devs/).
+
+![Project](/assets/images/readme/hackathon-dec23.png)
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-
-
+- [Design](#design)
+  - [Typography](#typography)
+  - [Color Scheme](#color-scheme)
+- [Technologies Used](#technologies-used)
 - [Features](#features)
-- [User Stories](#user-stories)
-- [Installation](#installation)
 - [Development](#development)
   - [Card Generator - Creating the Card](#card-generator---creating-the-card)
   - [Card Generator - Sharing the Card Using a Link](#card-generator---sharing-the-card-using-a-link)
@@ -17,18 +20,51 @@ Brief description of your project, what it does, and what unique problem it solv
     - [Front Image Layer](#front-image-layer)
     - [Middle Layer (Snow Animation)](#middle-layer-snow-animation)
     - [Rear Layer (Full Image without Transparency)](#rear-layer-full-image-without-transparency)
-- [Testing](#testing)
 - [Deployment](#deployment)
-- [Accreditations](#accreditations)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
-The project is deployed and can be accessed at [http://your-deployed-link.com](https://hypergeek-dev.github.io/Santas-Devs/) (Live link).
+- [Credits](#credits)
+  - [Content](#content)
+  - [Team Members](#team-members)
 
 
-## Introduction
+## Design
 
-One or two paragraphs providing an overview of our project.
+### Typography
+
+Th following [Google Fonts](https://fonts.google.com/) were used for this project:
+
+- *Courgette* is utilized for the project's logo and headers.
+- *Poppins* serves as the default font.
+- *Great Vibes* is selected as a secondary font and brings a touch of sophistication to specific text elements.
+
+Icons
+[FontAwesome](https://fontawesome.com/) and [Bootstrap](https://icons.getbootstrap.com/) icon libraries are used to enhance the visual appeal and usability of the website.
+
+### Color Scheme
+
+Expressive E-Cards employs a captivating color scheme, thoughtfully to create a dynamic contrast:
+
+- #FDF4E3 (Cream):
+  - This pale yellow hue is used for fonts on darker backgrounds to maintain readability with a soft and inviting touch.
+
+- #A02C2C (Maroon):
+  - Deep and rich, this maroon shade adds a touch of sophistication to key elements, creating a visually striking contrast.
+
+- #0B3D2E (Forest Green):
+  - Dark green reminiscent of a lush forest, used strategically to bring depth and balance to the overall design.
+
+- #DAA520 (Goldenrod):
+  - A vibrant and cheerful shade of gold, used as an accent color to highlight key features and elements, adding a festive flair.
+
+![Color palette](/assets/images/readme/color-scheme.png)
+
+## Technologies Used
+
+The key technologies employed in the project include:
+
+- HTML 
+- CSS 
+- JavaScript
+- Bootstrap 5
 
 ## Features
 
@@ -56,16 +92,6 @@ One or two paragraphs providing an overview of our project.
 ### About Us Page
   - Users can see the profiles of the developers behind the website and click to the Github pages.
 
-
-## User Stories
-
-Describe user stories or use cases to give an understanding of the intended user experience.
-
-## Installation
-
-Instructions on how to install the project:
-
-...
 
 ## Development
 
@@ -111,23 +137,34 @@ I've implemented a captivating snow animation on my website using three distinct
 
 The use of z-indexing in CSS allows these three layers to harmoniously interact, resulting in a visually appealing and immersive snow animation on my website. It's a delightful way to engage visitors and set a festive mood during the winter season.
 
-## Testing
-
-Outline the testing strategies, frameworks used, and how to run tests for your project.
 
 ## Deployment
 
-Mention any details about the deployment of your project, including the live link.
+This project is published on the GitHub Pages, thus deploying it is a straightforward process. Follow these steps to make your project live:
 
-## Accreditations
+1. Begin by forking the Expressive E-Cards repository. Click the "Fork" button at the top right of the repository page. This creates a copy of the project under your GitHub account.
+2. Navigate to your forked repository on GitHub.
+3. In your forked repository, click on the "Settings" tab.
+4. From the left-hand menu, select the "Pages" tab.
+5. Under the "Source" section, choose the "Main" branch from the drop-down menu.
+6. Click the "Save" button to apply the selected branch as the source for GitHub Pages.
+7. Once saved, a confirmation message will indicate a successful deployment to GitHub Pages.
+8. Visit the provided live link to explore the deployed project in action.
 
-The front-image used in the landingpage is free of use from Vecteezy.com
+## Credits
 
+### Content
 
-## License
+- The front-image used in the landingpage is free of use from [Vecteezy](https://www.vecteezy.com/)
+- All vector graphics originate from [Pixabay](https://pixabay.com/)
 
-```
-Distributed under the MIT License. See `LICENSE` for more information.
-```
+### Team Members
+
+- [Ruksana](https://github.com/BegumDev)
+- [Charley Roberts](https://github.com/charleymroberts)
+- [Atchutchi Ferreira](https://github.com/atchutchi)
+- [Ekaterina](https://github.com/e-kai00)
+- [Dennis Jensen](https://github.com/hypergeek-dev) (Scrum master)
+
 
 
