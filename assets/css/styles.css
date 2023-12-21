@@ -150,7 +150,11 @@ h6 {
 }
 
 .current-song {
-  font-size: 1em;
+  font-family: 'Courgette', sans-serif;
+  font-size: 1.1rem;
+  color: #FDF4E3;
+  text-transform: capitalize;
+  letter-spacing: .2rem;
   margin: 10px 0;
 }
 
