@@ -26,6 +26,10 @@ h6 {
   border-bottom: 3px solid #A02C2C; 
 }
 
+.navbar>.container {
+  align-items: flex-start;
+}
+
 .navbar .navbar-brand {
   color: #FDF4E3;
   font-family: 'Courgette', sans-serif;
