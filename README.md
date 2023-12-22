@@ -13,6 +13,7 @@ View the live project [here](https://e-kai00.github.io/Santas-Devs/).
   - [Color Scheme](#color-scheme)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
+- [Future Features](#future-features)
 - [Development](#development)
   - [Card Generator - Creating the Card](#card-generator---creating-the-card)
   - [Card Generator - Sharing the Card Using a Link](#card-generator---sharing-the-card-using-a-link)
@@ -23,7 +24,7 @@ View the live project [here](https://e-kai00.github.io/Santas-Devs/).
 - [Deployment](#deployment)
 - [Credits](#credits)
   - [Content](#content)
-  - [Team Members](#team-members)
+  - [Members of Santa Dev's Team](#members-of-santa-devs-team)
 
 
 ## Design
@@ -44,16 +45,16 @@ Icons
 Expressive E-Cards employs a captivating color scheme, thoughtfully to create a dynamic contrast:
 
 - #FDF4E3 (Cream):
-  - This pale yellow hue is used for fonts on darker backgrounds to maintain readability with a soft and inviting touch.
+This pale yellow hue is used for fonts on darker backgrounds to maintain readability with a soft and inviting touch.
 
 - #A02C2C (Maroon):
-  - Deep and rich, this maroon shade adds a touch of sophistication to key elements, creating a visually striking contrast.
+Deep and rich, this maroon shade adds a touch of sophistication to key elements, creating a visually striking contrast.
 
 - #0B3D2E (Forest Green):
-  - Dark green reminiscent of a lush forest, used strategically to bring depth and balance to the overall design.
+Dark green reminiscent of a lush forest, used strategically to bring depth and balance to the overall design.
 
 - #DAA520 (Goldenrod):
-  - A vibrant and cheerful shade of gold, used as an accent color to highlight key features and elements, adding a festive flair.
+A vibrant and cheerful shade of gold, used as an accent color to highlight key features and elements, adding a festive flair.
 
 ![Color palette](/assets/images/readme/color-scheme.png)
 
@@ -71,8 +72,6 @@ The key technologies employed in the project include:
 ### Ambience Animation
 - Snow
   - The user is able to see snow falling in the room window to create a scenic atmosphere.
-- Glow creation and image enhancement.
-  - The candles have been animated to glow giving a 3d experience.
 
 ### Christmas Countdown Timer
 - Live countdown to Christmas
@@ -92,6 +91,10 @@ The key technologies employed in the project include:
 ### About Us Page
   - Users can see the profiles of the developers behind the website and click to the Github pages.
 
+## Future Features
+
+- Glow creation and image enhancement.
+  - The candles have been animated to glow giving a 3d experience.
 
 ## Development
 
@@ -158,7 +161,7 @@ This project is published on the GitHub Pages, thus deploying it is a straightfo
 - The front-image used in the landingpage is free of use from [Vecteezy](https://www.vecteezy.com/)
 - All vector graphics originate from [Pixabay](https://pixabay.com/)
 
-### Team Members
+### Members of Santa Dev's Team 
 
 - [Ruksana](https://github.com/BegumDev)
 - [Charley Roberts](https://github.com/charleymroberts)
