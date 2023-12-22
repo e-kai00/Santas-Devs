@@ -70,26 +70,44 @@ The key technologies employed in the project include:
 ## Features
 
 ### Ambience Animation
-- Snow
-  - The user is able to see snow falling in the room window to create a scenic atmosphere.
+- Snowfall Effect:
+a captivating snowfall animation through the room window, creating a picturesque atmosphere that immerses users in a festive experience.
+
+![Snowfall](/assets/images/readme/feat-snow.png)
 
 ### Christmas Countdown Timer
-- Live countdown to Christmas
-  - The user can visibly see a countdown timer running up till Christmas day.
+- Live Countdown:
+a real-time countdown timer, ticking away the seconds until the joyous celebration of Christmas arrives.
+
+![Countdown Timer](/assets/images/readme/feat-calendar.png)
+
 ### Card Generator
-- Creation of card
-  - Users can create and preview a greeting card.
-- Sharing a URL link of created card
-  - Users can click a link that will create a URL that can be shared with their receipient - viewing it in an internet page. 
-- Saving of card to device
-  - Users can download a copy to their local device.
+- Create and Preview:
+craft personalized greeting cards with our card generator, allowing users to preview their  creations before sharing.
+
+- Sharing Options:
+generate a unique URL link for your created card and share with recipients through an internet page.
+
+- Saving Options:
+download a copy of your greeting card to your local device for future reminiscence.
+
+![Card Generator](/assets/images/readme/feat-card-generator.png)
+
 ### Music Player
-- User controlled music player
-  - Users can click to play music and change tracks whilst on the website. It can be paused and played aswell as navigating to the next track and previous track.
+- User-Controlled Melodies:
+festive vibe with a user-friendly music player. Play, pause, and navigate through tracks effortlessly while exploring the website.
+
+![Music Player](/assets/images/readme/feat-music-player.png)
+
 ### Help and Instructions
-  -  Users have access to information modals to help them navigate their way around the website.
+- Guided Navigation: 
+access helpful information modals to navigate the website seamlessly.
+
+![Help Page](/assets/images/readme/feat-help-page.png)
+
 ### About Us Page
-  - Users can see the profiles of the developers behind the website and click to the Github pages.
+  - Meet the Developers:
+features the profiles of the developers behind the scenes.
 
 ## Future Features
 
