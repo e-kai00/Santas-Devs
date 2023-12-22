@@ -111,8 +111,15 @@ features the profiles of the developers behind the scenes.
 
 ## Future Features
 
-- Glow creation and image enhancement.
-  - The candles have been animated to glow giving a 3d experience.
+- Glow creation and image enhancement:
+introduce enhanced glow effects to animated candles, elevating the visual richness of the festive ambience.
+
+- Card Generator improvements
+  - add *Copy Link* button to seamlessly share a greeting card;
+
+  - extend Greeting Message to accommodates longer text;
+
+  - allow text color customization: adjust text colors, ensuring optimal contrast against the background for a visual impact.
 
 ## Development
 
