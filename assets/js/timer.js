@@ -13,22 +13,26 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Update time
-    const countdown = setInterval(function () {
+    const countdown = () => {
       const currentDte = new Date().getTime();
-
       const timeLeft = christmasDate - currentDte;
 
       days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
       hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
       seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+      
+      updateCountdownDisplay();
 
       // Reset the countdown 
       if (timeLeft < 0) {
-        clearInterval(countdown);        
         christmasDate = new Date("December 25, " + (new Date().getFullYear() + 1) + " 00:00:00").getTime();
+
+      countdown()
       }
 
-      updateCountdownDisplay();
-    }, 1000);
+    };
+
+    countdown();
+    setInterval(countdown, 1000);
   });
